@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('tamu-campus.jpeg') no-repeat center center fixed; /* Update with the correct image path */
+    background-size: cover;
+    color: #500000; /* Aggie Maroon for text */
+}
+
+header {
+    background: #500000; /* Aggie Maroon */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#logo {
+    width: 150px; /* Adjust the size as needed */
+    margin-bottom: 10px;
+}
+
+main {
+    background: rgba(255, 255, 255, 0.8); /* White with some opacity */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 960px;
+    border-radius: 8px;
+}
+
+h1 {
+    color: white; /* Aggie Maroon for headers */
+}
+
+h2 {
+    color: #500000
+}
+
+article {
+    background: white;
+    margin-top: 20px;
+    padding: 20px;
+    border-left: 5px solid #500000; /* Maroon accent on the side */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+iframe {
+    border: 1px solid #ccc;
+    margin-bottom: 20px; /* Space below the iframe */
+}
+
+footer {
+    background: #500000; /* Aggie Maroon */
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* You might want to add media queries to handle responsiveness */
+@media screen and (max-width: 768px) {
+    #logo {
+        width: 100px; /* Smaller logo for mobile */
+    }
+
+    main {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    header, footer {
+        padding: 10px;
+    }
+}
