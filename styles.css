@@ -57,6 +57,22 @@ footer {
     bottom: 0;
 }
 
+.description {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-container {
+    display: flex;
+    gap: 32px;
+    margin-bottom: 32px;
+}
+
+.image-container img {
+    width: 200px;
+}
+
+
 /* You might want to add media queries to handle responsiveness */
 @media screen and (max-width: 768px) {
     #logo {
